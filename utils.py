@@ -225,6 +225,8 @@ def save_checkpoint(data_name, epoch, epochs_since_improvement, encoder, decoder
              'bleu-4': bleu4,
              'encoder': encoder,
              'decoder': decoder,
+             'encoder_state': encoder.state_dict(),
+             'decoder_state': decoder.state_dict(),
              'encoder_optimizer': encoder_optimizer,
              'decoder_optimizer': decoder_optimizer}
     filename = 'checkpoint_' + data_name + '.pth.tar'
