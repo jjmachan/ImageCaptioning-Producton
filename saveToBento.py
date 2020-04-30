@@ -43,7 +43,7 @@ def saveToBento(checkpoint_path, word_map_file):
     saved_path = bento_svc.save()
 
     # save word_map_file to bento container
-    dest_file = saved_path + '/ImageCaptioner/artifacts/word_map.json'
+    dest_file = saved_path + '/ImageCaptioner/word_map.json'
     shutil.copy(word_map_file, dest_file)
 
 if __name__ == '__main__':

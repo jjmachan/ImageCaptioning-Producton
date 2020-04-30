@@ -1,2 +1,11 @@
 __pycache__/
 pre_processed/
+
+# checkpoints
+*.pth.tar
+
+# word maps
+word_map.json
+
+# ignore pretrained models
+pretrain_weights/
