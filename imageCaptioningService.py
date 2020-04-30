@@ -36,7 +36,7 @@ class ImageCaptioner(bentoml.BentoService):
         # Get the image
         img = Image.fromarray(img)
         img = transform(img)
-        print(img.shape)
+        # (3, 224, 224)
         img = img.unsqueeze(0)
 
         # Pass to encoder
