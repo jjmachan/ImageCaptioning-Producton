@@ -1,6 +1,6 @@
-This is a **[PyTorch](https://pytorch.org) Tutorial to Image Captioning**.
+# Building and Deploying an Image-Captioning Model
 
-This is the first in [a series of tutorials](https://github.com/sgrvinod/Deep-Tutorials-for-PyTorch) I'm writing about _implementing_ cool models on your own with the amazing PyTorch library.
+First of all this work is not entirely my own work. I’m building off of [sgrvinod’s](https://github.com/sgrvinod) excellent tutorial on [Image Captioning using PyTorch](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning). A really well written and thorough tutorial and helped me understand these concepts. What I aim to do with this create an end-to-end tutorial starting from getting the data and creating the model to deploying it using libraries like BentoML and Heroku. 
 
 Basic knowledge of PyTorch, convolutional and recurrent neural networks is assumed.
 
@@ -8,13 +8,7 @@ If you're new to PyTorch, first read [Deep Learning with PyTorch: A 60 Minute Bl
 
 Questions, suggestions, or corrections can be posted as issues.
 
-I'm using `PyTorch 0.4` in `Python 3.6`.
-
----
-
-**27 Jan 2020**: Working code for two new tutorials has been added — [Super-Resolution](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution) and [Machine Translation](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Machine-Translation)
-
----
+I'm using `PyTorch 0.4` and `Bentoml` in `Python 3.6`
 
 # Contents
 
@@ -29,6 +23,10 @@ I'm using `PyTorch 0.4` in `Python 3.6`.
 [***Training***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#training)
 
 [***Inference***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#inference)
+
+[***Creating a Service***](0)
+
+[***Deploying***](0)
 
 [***Frequently Asked Questions***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#faqs)
 
@@ -427,6 +425,14 @@ Also see [`eval.py`](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Cap
 ![](./img/tommy.png)
 
 ---
+
+# Creating a Service
+
+write about bentoml service
+
+# Deploying 
+
+deploying to heroku
 
 # FAQs
 
