@@ -1,6 +1,6 @@
 # Building and Deploying an Image-Captioning Model
 
-First of all this work is not entirely my own work. I’m building off of [sgrvinod’s](https://github.com/sgrvinod) excellent tutorial on [Image Captioning using PyTorch](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning). A really well written and thorough tutorial and helped me understand these concepts. What I aim to do with this create an end-to-end tutorial starting from getting the data and creating the model to deploying it using libraries like BentoML and Heroku. 
+First of all this work is not entirely my own work. I’m building off of [sgrvinod’s](https://github.com/sgrvinod) excellent tutorial on [Image Captioning using PyTorch](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning). A really well written and thorough tutorial and helped me understand these concepts. What I aim to do with this is create an end-to-end tutorial starting from getting the data and creating the model to deploying it using libraries like BentoML on Heroku. 
 
 Basic knowledge of PyTorch, convolutional and recurrent neural networks is assumed.
 
